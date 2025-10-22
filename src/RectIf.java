@@ -18,7 +18,7 @@ public class Rectlf extends MyFrame2{
 }
 */
 
-public class Rectlf extends MyFrame2{
+public class RectIf extends MyFrame2{
 	public void run() {
 		int x=30;
 		setColor(0,128,0);
@@ -35,7 +35,7 @@ public class Rectlf extends MyFrame2{
 	
 	public static void main(String[] args) {
 		System.out.println("プログラムを実行します");
-		MyFrame2 frame1=new Rectlf();
+		MyFrame2 frame1=new RectIf();
 		frame1.setLocation(200,100);
 		frame1.setSize(300,400);
 
